@@ -1,0 +1,80 @@
+.banner {
+    background-image: url('https://bacnhabook.vn/wp-content/uploads/2023/10/toplist-nhung-phim-trung-quoc-hay-nam-2023-6.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .main {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .text-banner {
+            width: 50%;
+            margin: auto 0px;
+            position: relative;
+
+            h1 {
+                font-size: 60px;
+                color: white;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+
+            .icon {
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 20px;
+                color: white;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            .ct {
+                padding: 9px 20px;
+                font-size: 17px;
+                font-family: Arial, Helvetica, sans-serif;
+                outline: none;
+                background-color: black;
+                color: white;
+                margin-right: 20px;
+                border: none;
+                font-weight: 700;
+            }
+
+            .xp {
+                padding: 9px 20px;
+                font-size: 17px;
+                font-family: Arial, Helvetica, sans-serif;
+                outline: none;
+                background-color: red;
+                color: white;
+                border: none;
+                font-weight: 700;
+
+            }
+
+        }
+
+        .image {
+            position: relative;
+
+            img {
+                width: 400px;
+                height: 500px;
+                background-size: cover;
+            }
+        }
+    }
+}
